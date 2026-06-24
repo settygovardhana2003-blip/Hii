@@ -1,0 +1,159 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>EV5 Rental Bikes - Anantapur</title>
+
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        background-color: #f4f7fc;
+        color: #333;
+    }
+
+    header {
+       background: linear-gradient(90deg, #007bff, #00c6ff);
+    color: white;
+    text-align: center;
+    padding: 40px 20px;
+    header h1 {
+        margin: 0;
+        font-size: 35px;
+    }
+
+    header p {
+        font-size: 25px;
+        margin-top: 10px;
+    }
+
+    section {
+        background: white;
+        max-width: 1000px;
+        margin: 30px auto;
+        padding: 30px;
+        border-radius: 10px;
+        box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+    }
+
+    h2 {
+        color: #007bff;
+    }
+
+    .btn {
+        display: inline-block;
+        background-color: #25D366;
+        color: Black;
+        padding: 12px 25px;
+        text-decoration: none;
+        border-radius: 5px;
+        font-weight: bold;
+    }
+
+    footer {
+        background-color: #000000;
+        color: white;
+        text-align: center;
+        padding: 10px;
+        margin-top: 50px;
+    }
+</style><body>
+
+<header>
+    <h1> E-SCOOTER FOR RENT</h1>
+    <p>Affordable Electric Scooty Rentals for Students</p>
+</header>
+
+<section>
+    <h2>About Us</h2>
+    <p>
+        Welcome to EV5 Rental Bikes. We provide affordable electric scooter rentals
+        for students and local travelers. Easy booking, low cost, and eco-friendly rides.
+    </p>
+</section>
+
+<section>
+    <h2>Rental Plans</h2>
+    <ul>
+
+        <li>Plan 1: ₹250 per day</li>
+        <li>Plan 2: ₹1200 per week</li>
+        <li>Monthly Plan: Contact for pricing</li>
+    </ul>
+</section>
+
+<section>
+    <h2>Student Offers</h2>
+    <p>Special discounts available for Central University students.</p>
+</section>
+
+<section>
+    <h2>Pickup & Drop Locations</h2>
+    <ul>
+        <li>Central University Campus</li>
+        <li>Anantapur Town</li>
+        <li>Jathaluru (Available on Request)</li>
+    </ul>
+</section>
+
+<section>
+    <h2>Book Your Ride</h2>
+
+    <form action="#" method="POST">
+
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name" placeholder="Enter Your Name" required>
+        <br><br>
+
+        <label for="rollno">Roll Number:</label><br>
+        <input type="text" id="rollno" name="rollno" placeholder="Enter Roll Number" required>
+        <br><br>
+
+        <label for="hostel">Hostel Name:</label><br>
+        <select id="hostel" name="hostel" required>
+            <option value="">Select Hostel</option>
+            <option value="sapthagiri1">Sapthagiri 1</option>
+            <option value="sapthagiri2">Sapthagiri 2</option>
+            <option value="sapthagiri3">Sapthagiri 3</option>
+            <option value="sapthagiri4">Sapthagiri 4</option>
+        </select>
+        <br><br>
+
+        <label for="aadhaar">Aadhaar Number:</label><br>
+        <input 
+            type="text" 
+            id="aadhaar" 
+            name="aadhaar"
+            placeholder="Enter 12-digit Aadhaar Number"
+            maxlength="12"
+            pattern="\d{12}"
+            required
+        >
+        <br><br>
+
+        <label for="pickup">Pickup Date & Time:</label><br>
+        <input type="datetime-local" id="pickup" name="pickup" required>
+        <br><br>
+
+        <label for="return">Return Date & Time:</label><br>
+        <input type="datetime-local" id="return" name="return" required>
+        <br><br>
+
+        <button type="submit">Submit Booking</button>
+
+    </form>
+</section>
+<section>
+    <h2>Contact Us</h2>
+    <p>Phone / WhatsApp: 6302112002</p>
+    <a class="btn" href="https://wa.me/916302112002" target="_blank">
+        Chat on WhatsApp
+    </a>
+</section>
+
+<footer>
+    <p>© 2026 EV5 Rental Bikes - Anantapur</p>
+</footer>
+</body>
+</html>
